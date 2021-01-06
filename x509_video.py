@@ -7,8 +7,8 @@ from cryptography.hazmat.primitives import serialization
 from cryptography.hazmat.primitives.asymmetric import rsa
 import ipaddress
 
-server_IP = '18.224.18.157'
-h_name = 'ca_server'
+server_IP = 'IP address'
+h_name = 'server_name'
 
 key = rsa.generate_private_key(
     public_exponent=65537,
