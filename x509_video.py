@@ -49,5 +49,5 @@ my_key_pem = key.private_bytes(
 with open('test_ubuntu_new.crt', 'wb') as c:
     c.write(my_cert_pem)
 
-with open('test_ubuntu_new.key', 'wb') as c:
-    c.write(my_key_pem)
+with open('test_ubuntu_new.key', 'wb') as k:
+    k.write(my_key_pem)
